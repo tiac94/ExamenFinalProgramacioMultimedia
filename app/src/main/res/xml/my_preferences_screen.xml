@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:key="option1"
+        android:summary="Display location after booting device"
+        android:title="Display location"
+        android:defaultValue="false" />
+    <CheckBoxPreference
+        android:key="option2"
+        android:summary="Send notification if Display is Disabled after booting device"
+        android:title="Send notification"
+        android:defaultValue="false" />
+    <EditTextPreference
+        android:dialogTitle="Config button text 1"
+        android:key="option3"
+        android:summary="Text for the config button"
+        android:title="Search text" />
+    <EditTextPreference
+        android:dialogTitle="Config button text 2"
+        android:key="option4"
+        android:summary="Text for the config button"
+        android:title="Search text" />
+</PreferenceScreen>
